@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.Help123{
+    font-family: "Lato", sans-serif;
+}
+.Help{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin:40px;
+ 
+}
+#AboveImg{margin: 5vh 5vw;
+    width: 40vw;
+    border: none;
+    border-radius: 40px;
+}
+.Self-defence
+{background-repeat: repeat-x;
+    background-image: url("../assets/help4.jpg");
+    height:20vh;
+    margin:40px;
+
+}
+#selfdefence{
+    background-repeat: repeat-y;
+    background-image: url("../assets/help4.jpg");
+}
+.Self-defence
+{
+    
+}
+.sec2{
+    display: flex;
+  flex-direction: column;
+}
+.tips{
+   font-family: "Lato", sans-serif;
+    font-size: 20px;
+    margin:0;
+}
+.tips1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding:30px;
+   
+    
+}
+.tips2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: black;
+    padding: 64px;
+}
