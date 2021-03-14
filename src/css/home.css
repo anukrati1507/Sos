@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+#home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+#home-container-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+#home-image-text {
+  width: 700px;
+  text-align: justify;
+  margin-right: 50px;
+}
+#home-top-image {
+  width: 500px;
+  height: 400px;
+}
+#home-container-two {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding: 50px 0;
+  width: 100vw;
+  justify-content: center;
+}
+#home-image-two {
+  height: 400px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#home-text-two {
+  width: 700px;
+  text-align: justify;
+  margin-left: 50px;
+}
+@media screen and (max-width: 800px) {
+  #home-container-one {
+    flex-direction: column;
+  }
+  #home-image-text {
+    width: 280px;
+    text-align: justify;
+    margin-right: 0px;
+  }
+  #home-container-two {
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+    width: 100vw;
+    justify-content: center;
+  }
+  #home-text-two {
+    width: 300px;
+    text-align: justify;
+    margin-left: 0px;
+  }
+}

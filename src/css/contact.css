@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.contact-main {
+  background-color: black;
+  height: auto;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 3%;
+}
+.contact-head {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+.contact-comp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  margin: 0 20px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  font-size: 50px;
+}
+a:hover,
+:visited {
+  color: white;
+}
+@media only screen and (max-width: 700px) {
+  .contact-head {
+    font-size: 28px;
+  }
+  a {
+    font-size: 40px;
+    margin: 0 10px;
+  }
+}
