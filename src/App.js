@@ -6,17 +6,26 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
-import SelfD from './components/SelfD';
+import Help from './components/Help';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <SelfD />
-      <About />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/selfdefence" component={Help} />
+        </Switch>
+        <div id="about">
+          <About />
+        </div>
+        <div id="contact">
+          <Contact />
+        </div>
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 .Help123{
     font-family: "Lato", sans-serif;
+    padding-bottom: 700px;
+    padding-top:50px;
 }
 .Help{
     display: flex;
@@ -9,8 +11,7 @@
     align-items: center;
     background-color: black;
     color: white;
-    margin:40px;
- 
+    
 }
 #AboveImg{margin: 5vh 5vw;
     width: 40vw;
@@ -21,7 +22,8 @@
 {background-repeat: repeat-x;
     background-image: url("../assets/help4.jpg");
     height:20vh;
-    margin:40px;
+    /* margin:40px; */
+   
 
 }
 #selfdefence{

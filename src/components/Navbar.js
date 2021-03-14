@@ -1,24 +1,25 @@
 import React from 'react';
 import '../css/navbar.css';
+import { HashLink as Link } from 'react-router-hash-link';
 
 class Navbar extends React.Component {
     render() {
         return (
             <div id="navbar-container">
                 <div id="nav-one">
-                    <a className="nav-link" href='/'>Home</a>
+                    <Link className="nav-link" smooth to="/">Home</Link>
                 </div>
                 <div id="nav-two">
-                    <a className="nav-link" href='/'>Voice-over-SOS</a>
+                    <Link className="nav-link" smooth to="/">Voice-over-SOS</Link>
                 </div>
                 <div id="nav-three">
-                    <a className="nav-link" href='/'>Self Defense</a>
+                    <Link className="nav-link" smooth to='/selfdefence'>Self Defense</Link>
                 </div>
                 <div id="nav-four">
-                    <a className="nav-link" href='/'>Contact Us</a>
+                    <Link className="nav-link" smooth to='/#contact'>Contact Us</Link>
                 </div>
                 <div id="nav-five">
-                    <a className="nav-link" href='/'>About</a>
+                    <Link className="nav-link" smooth to="/#about">About</Link>
                 </div>
 
             </div>);

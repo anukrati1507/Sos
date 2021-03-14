@@ -2,6 +2,8 @@ import React from 'react';
 import home from '../assets/home3.jpg';
 import '../css/home.css';
 import voice from '../assets/voice1.jpg';
+import '../css/selfd.css';
+import selfd from '../assets/selfd2.jpg'
 
 class Home extends React.Component {
     render() {
@@ -41,6 +43,16 @@ class Home extends React.Component {
                         </p>
                     </div>
 
+                </div>
+                <div id="home-container-three">
+                    <div id="self-container">
+                        <div>
+                            <img src={selfd} alt="self defense image" id="selfd-image"></img>
+                        </div>
+                        <div>
+                            <a href="" id="selfd-button">Self Defense</a>
+                        </div>
+                    </div>
                 </div>
             </div>);
     }

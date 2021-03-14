@@ -8,6 +8,7 @@
   align-items: center;
   height: 64px;
   width: 100vw;
+  position:fixed;
   padding-left: 30px;
   font-family: "Montserrat", sans-serif;
 }
@@ -25,6 +26,7 @@
   #navbar-container {
     justify-content: center;
     padding-left: 0px;
+    width: 100vw;
   }
   .nav-link {
     font-size: 14px;

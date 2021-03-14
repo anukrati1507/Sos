@@ -44,6 +44,10 @@
   text-align: justify;
   margin-left: 50px;
 }
+#home-container-three{
+  background-color: black;
+  width: 100vw;
+}
 @media screen and (max-width: 800px) {
   #home-container-one {
     flex-direction: column;
