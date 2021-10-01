@@ -13,11 +13,11 @@ trigger = "help"
 stop = "stop"
 contacts = [
     {
-        "name" : "Ishika",
+        "name" : "Ishika Dubey",
         "number" : "+917007070964" 
     },
     {
-        "name" : "Anu",
+        "name" : "Anukrati Saxena",
         "number" : "+918005038609"
     }
 ]
@@ -43,7 +43,7 @@ def listen():
                 send_text()
 
             elif stop in command:
-                raise ValueError("Terminating the application.")
+                raise ValueError("Terminating the application now.")
     
     except sr.UnknownValueError:
         pass
